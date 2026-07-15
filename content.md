@@ -6,6 +6,8 @@ description: A walkthrough of the course content.
 
 # Course Content
 
+Wellcome
+
 ## Introduction
 - Structure of the course
 - What is bioengineering?
