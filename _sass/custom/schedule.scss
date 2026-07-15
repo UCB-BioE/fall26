@@ -15,9 +15,11 @@
   }
 
   ul.schedule-timeline {
-    margin: 40px auto 0;
+    margin: 40px 0 0;
+    left: 0;
     position: absolute;
-    width: 100%;
+    top: 0;
+    width: 88px;
   }
 
   .schedule-time {
@@ -35,13 +37,14 @@
       left: 0;
       position: absolute;
       top: 0;
-      width: 100%;
+      width: 9999px;
     }
   }
 
   .schedule-group {
     display: flex;
     margin-bottom: 0;
+    margin-left: 88px;
     position: relative;
   }
 
