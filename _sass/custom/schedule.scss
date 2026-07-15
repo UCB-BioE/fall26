@@ -15,17 +15,9 @@
   }
 
   ul.schedule-timeline {
-    margin: 0;
-    padding: 0;
-    position: relative;
+    margin: 40px auto 0;
+    position: absolute;
     width: 100%;
-  }
-
-  .schedule-day--timeline {
-    border-left: 0;
-    flex: 0 0 88px;
-    min-width: 88px;
-    overflow: visible;
   }
 
   .schedule-time {
@@ -43,7 +35,7 @@
       left: 0;
       position: absolute;
       top: 0;
-      width: 9999px;
+      width: 100%;
     }
   }
 
@@ -58,8 +50,6 @@
     flex: 1 0 0;
     margin: 0;
     min-width: 120px;
-    overflow: hidden;
-    position: relative;
 
     &:first-of-type {
       border-left: 0;
@@ -76,7 +66,7 @@
   }
 
   .schedule-events {
-    display: block;
+    display: flex;
     padding: 0;
     position: relative;
   }
@@ -91,9 +81,7 @@
     margin: 0;
     padding: $sp-1 $sp-2;
     position: absolute;
-    left: 0;
-    right: 0;
-    width: auto;
+    width: 100%;
 
     .name {
       @extend .fs-3, .fw-700;
