@@ -2,7 +2,6 @@
   @include abstract-card();
   overflow-x: scroll;
   position: relative;
-  padding-left: 80px;
 
   li::before {
     display: none;
@@ -18,10 +17,15 @@
   ul.schedule-timeline {
     margin: 0;
     padding: 0;
-    position: absolute;
-    top: 40px;
-    left: 0;
-    width: 80px;
+    position: relative;
+    width: 100%;
+  }
+
+  .schedule-day--timeline {
+    border-left: 0;
+    flex: 0 0 88px;
+    min-width: 88px;
+    overflow: visible;
   }
 
   .schedule-time {
@@ -39,14 +43,13 @@
       left: 0;
       position: absolute;
       top: 0;
-      width: 100%;
+      width: 9999px;
     }
   }
 
   .schedule-group {
     display: flex;
     margin-bottom: 0;
-    margin-left: 0;
     position: relative;
   }
 
@@ -73,6 +76,7 @@
   }
 
   .schedule-events {
+    display: block;
     padding: 0;
     position: relative;
   }
@@ -87,7 +91,9 @@
     margin: 0;
     padding: $sp-1 $sp-2;
     position: absolute;
-    width: 100%;
+    left: 0;
+    right: 0;
+    width: auto;
 
     .name {
       @extend .fs-3, .fw-700;
