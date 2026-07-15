@@ -15,9 +15,16 @@
   }
 
   ul.schedule-timeline {
-    margin: 40px auto 0;
-    position: absolute;
+    margin: 0;
+    padding: 0;
+    position: relative;
     width: 100%;
+  }
+
+  .schedule-day--timeline {
+    flex: 0 0 80px;
+    min-width: 80px;
+    border-left: 0;
   }
 
   .schedule-time {
