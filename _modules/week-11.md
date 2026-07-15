@@ -1,6 +1,9 @@
 ---
 title: Week 11
----
+
+Oct 31
+Oct 30
+: **Discussion**
 
 Oct 31
 : **20**{: .label} Synthetic Biology I

@@ -1,6 +1,9 @@
 ---
 title: Week 12
----
+
+Nov 7
+Nov 6
+: **Discussion**
 
 Nov 7
 : **22**{: .label} Synthetic Bio & DNA Sequencing

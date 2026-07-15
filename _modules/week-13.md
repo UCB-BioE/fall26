@@ -1,6 +1,9 @@
 ---
 title: Week 13
----
+
+Nov 14
+Nov 13
+: **Discussion**
 
 Nov 14
 : **24**{: .label} FDA & Medical Devices
