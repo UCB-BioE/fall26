@@ -2,6 +2,7 @@
   @include abstract-card();
   overflow-x: scroll;
   position: relative;
+  padding-left: 80px;
 
   li::before {
     display: none;
@@ -17,14 +18,10 @@
   ul.schedule-timeline {
     margin: 0;
     padding: 0;
-    position: relative;
-    width: 100%;
-  }
-
-  .schedule-day--timeline {
-    flex: 0 0 80px;
-    min-width: 80px;
-    border-left: 0;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 80px;
   }
 
   .schedule-time {
@@ -42,13 +39,14 @@
       left: 0;
       position: absolute;
       top: 0;
-      width: 9999px;
+      width: 100%;
     }
   }
 
   .schedule-group {
     display: flex;
     margin-bottom: 0;
+    margin-left: 0;
     position: relative;
   }
 

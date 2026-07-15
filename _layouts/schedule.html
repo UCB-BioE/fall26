@@ -1,15 +1,12 @@
 {% assign start_time = page.timeline | first %}
 {% capture offset %}{% include minutes.liquid time=start_time %}{% endcapture %}
 <div class="schedule">
-  <ul class="schedule-group">
-    <li class="schedule-day schedule-day--timeline">
-      <h2 class="schedule-header no_anchor">&nbsp;</h2>
-      <ul class="schedule-timeline" style="height: {{ page.timeline | size | times: 40 }}px">
-        {% for time in page.timeline %}
-        <li class="schedule-time">{{ time }}</li>
-        {% endfor %}
-      </ul>
-    </li>
+  <ul class="schedule-timeline" style="height: {{ page.timeline | size | times: 40 }}px">
+    {% for time in page.timeline %}
+    <li class="schedule-time">{{ time }}</li>
+    {% endfor %}
+  </ul>
+  <ul class="schedule-group" style="min-width: {{ page.schedule | size | times: 120 }}px">
     {% for day in page.schedule %}
     <li class="schedule-day">
       <h2 class="schedule-header no_anchor">{{ day.name }}</h2>

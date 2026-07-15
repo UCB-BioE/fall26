@@ -1,8 +1,7 @@
 ---
-name: Sakshi Shah
+name: TBD
 role: Teaching Assistant
-email: sakshi_shah+bioe10@berkeley.edu
 photo: oski.jpeg
 ---
 
-I teach sections 104, 105 & 108!
+Details coming soon.
