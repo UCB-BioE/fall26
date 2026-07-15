@@ -9,7 +9,7 @@ seo:
 ---
 
 # BioEngineering 10
-[bCourses](https://bcourses.berkeley.edu/courses/1526813){: .btn .btn-blue .mr-2 }
+[bCourses]({{ site.bcourses_course_url }}){: .btn .btn-blue .mr-2 }
 [Ed](https://edstem.org/us/courses/41881/discussion/){: .btn .btn-purple }
 
 ## Announcements
