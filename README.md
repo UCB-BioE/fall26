@@ -2,7 +2,7 @@
 layout: home
 title: BioEngineering 10
 nav_exclude: true
-permalink: /course-home/
+permalink: /
 seo:
   type: Course
   name: Just the Class
