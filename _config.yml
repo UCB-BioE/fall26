@@ -32,8 +32,6 @@ aux_links:
     - *bcourses_course_url
   EdStem:
     - 'https://edstem.org/us/courses/100503/'
-  GitHub Repository:
-    - 'https://github.com/UCB-BioE/fall26'
 footer_content:
 
 # Collections for website data
