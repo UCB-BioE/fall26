@@ -16,7 +16,7 @@
 title: BioE10
 description: Introduction to Biomedicine for Engineers
 author: Iain Clark, Coco Shen
-bcourses_course_url: &bcourses_course_url 'https://bcourses.berkeley.edu/courses/1526813'
+bcourses_course_url: &bcourses_course_url 'https://bcourses.berkeley.edu/courses/1556236'
 baseurl: '/fall26' # the subpath of your site, e.g. /blog
 url: 'https://ucb-bioe.github.io' # the base hostname & protocol for your site, e.g. http://example.com
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "AGENTS.md", "maintainer-local"]
