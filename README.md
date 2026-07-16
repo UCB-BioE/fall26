@@ -1,7 +1,7 @@
 ---
 layout: home
-title: BioEngineering 10
-nav_exclude: true
+title: Outline
+nav_order: 1
 permalink: /
 seo:
   type: Course
